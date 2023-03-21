@@ -1,0 +1,257 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="57e53640-c491-4ef2-86d7-3f3deaf0dc5e" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Sofudw</ID>
+  <Name>Sofudw</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Sofudw</DataSourceID>
+  <Schema>
+    <xs:schema id="Sofudw" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Sofudw" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="0c7493a8-b748-4447-86b0-d215cd239f1d">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_mbosg" msprop:design-time-name="b47cb44f-057a-4041-ad43-be14f07ecfc4" msprop:DbTableName="mbosg" msprop:FriendlyName="mbosg" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="14604f09-8893-4b62-8d27-0e12f4f6323c" msprop:DbColumnName="id" msprop:FriendlyName="id" type="xs:int" />
+                  <xs:element name="ad" msprop:design-time-name="37453122-7714-4247-ac6d-e9281e961f0c" msprop:DbColumnName="ad" msprop:FriendlyName="ad" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="soyad" msprop:design-time-name="c858743e-ffcc-4d5c-af1e-08e69d5dd030" msprop:DbColumnName="soyad" msprop:FriendlyName="soyad" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="cinsiyet" msprop:design-time-name="b1a30a86-b4ec-4818-b923-f8e98413275a" msprop:DbColumnName="cinsiyet" msprop:FriendlyName="cinsiyet" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="tel" msprop:design-time-name="41417941-7d6b-42db-a039-44beee261499" msprop:DbColumnName="tel" msprop:FriendlyName="tel" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="koltukno" msprop:design-time-name="8dca6576-ed0f-4bae-a0f4-23569b2fef63" msprop:DbColumnName="koltukno" msprop:FriendlyName="koltukno" type="xs:int" minOccurs="0" />
+                  <xs:element name="otobusno" msprop:design-time-name="c3b2578e-d4de-4fea-a56e-f6a9b80acf8d" msprop:DbColumnName="otobusno" msprop:FriendlyName="otobusno" type="xs:int" minOccurs="0" />
+                  <xs:element name="tarih" msprop:design-time-name="a59a81a0-eca0-4534-aaed-2b3466913fdd" msprop:DbColumnName="tarih" msprop:FriendlyName="tarih" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="kalkisyeri" msprop:design-time-name="4cab0daa-397b-4673-91e3-462adfa46a29" msprop:DbColumnName="kalkisyeri" msprop:FriendlyName="kalkisyeri" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="varisyeri" msprop:design-time-name="6be2fd8a-b562-4ce1-8387-9d44b95f5851" msprop:DbColumnName="varisyeri" msprop:FriendlyName="varisyeri" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="fiyat" msprop:design-time-name="4984bb7d-10c7-4c2b-96e2-c80f51e1a916" msprop:DbColumnName="fiyat" msprop:FriendlyName="fiyat" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_mgob" msprop:design-time-name="0531a50a-055e-4be2-be93-96e61df51a73" msprop:DbTableName="mgob" msprop:FriendlyName="mgob" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="1c25ef5e-8b84-4307-bbfc-54cce7598614" msprop:DbColumnName="id" msprop:FriendlyName="id" type="xs:int" />
+                  <xs:element name="ad" msprop:design-time-name="3f03aebd-ac6d-4427-8859-0000854316a8" msprop:DbColumnName="ad" msprop:FriendlyName="ad" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="soyad" msprop:design-time-name="c3e505fc-18b4-4e29-9558-f750941a486e" msprop:DbColumnName="soyad" msprop:FriendlyName="soyad" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="cinsiyet" msprop:design-time-name="4d5f10d4-6878-47b9-a985-2b0386bdc6fe" msprop:DbColumnName="cinsiyet" msprop:FriendlyName="cinsiyet" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="kalkisyeri" msprop:design-time-name="2942aab8-fd6f-43b2-a3a6-82fb31738cbb" msprop:DbColumnName="kalkisyeri" msprop:FriendlyName="kalkisyeri" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="varisyeri" msprop:design-time-name="241d0925-f9b1-46fe-a53e-ae5b053f8700" msprop:DbColumnName="varisyeri" msprop:FriendlyName="varisyeri" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="sure" msprop:design-time-name="45f4447c-f196-4f42-a6c8-360235c7f0c1" msprop:DbColumnName="sure" msprop:FriendlyName="sure" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="fiyat" msprop:design-time-name="6ee61aa0-3575-476e-be1b-3a8cb7b0db7f" msprop:DbColumnName="fiyat" msprop:FriendlyName="fiyat" type="xs:int" minOccurs="0" />
+                  <xs:element name="otobusno" msprop:design-time-name="416cb342-48e5-41b0-beee-df5ab9ff919d" msprop:DbColumnName="otobusno" msprop:FriendlyName="otobusno" type="xs:int" minOccurs="0" />
+                  <xs:element name="koltukno" msprop:design-time-name="930509d4-9947-44ee-85dd-99b6d4a444e5" msprop:DbColumnName="koltukno" msprop:FriendlyName="koltukno" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_msb" msprop:design-time-name="422943bb-a89c-4129-be1b-4056cf2f90b5" msprop:DbTableName="msb" msprop:FriendlyName="msb" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="a825c6f9-b323-4e8d-b977-7cc787188f52" msprop:DbColumnName="id" msprop:FriendlyName="id" type="xs:int" />
+                  <xs:element name="ad" msprop:design-time-name="54be837e-552c-41ac-a7f9-00652c5381d8" msprop:DbColumnName="ad" msprop:FriendlyName="ad" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="soyad" msprop:design-time-name="4cef51a5-5250-4292-b1a4-85fc149bdf20" msprop:DbColumnName="soyad" msprop:FriendlyName="soyad" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="cinsiyet" msprop:design-time-name="aa0091aa-3d7d-44c0-afeb-3e956286f075" msprop:DbColumnName="cinsiyet" msprop:FriendlyName="cinsiyet" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="tel" msprop:design-time-name="9cbe2c3d-d32b-4818-8fe0-736c6ffec3e2" msprop:DbColumnName="tel" msprop:FriendlyName="tel" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="koltukno" msprop:design-time-name="a0b20e8e-e525-4d01-ace9-c15bfd5ebee8" msprop:DbColumnName="koltukno" msprop:FriendlyName="koltukno" type="xs:int" minOccurs="0" />
+                  <xs:element name="otobusno" msprop:design-time-name="b431b4f0-5999-45a7-a14f-073395381e85" msprop:DbColumnName="otobusno" msprop:FriendlyName="otobusno" type="xs:int" minOccurs="0" />
+                  <xs:element name="biletno" msprop:design-time-name="82a82aa3-5c03-4248-b772-a168ddc70aa1" msprop:DbColumnName="biletno" msprop:FriendlyName="biletno" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_sbo" msprop:design-time-name="cd53f334-09c1-48b4-bf33-619d6064d0fd" msprop:DbTableName="sbo" msprop:FriendlyName="sbo" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="c2f66e0d-75d5-4b4e-92a1-65c5d1dbee01" msprop:DbColumnName="id" msprop:FriendlyName="id" type="xs:int" />
+                  <xs:element name="otobusno" msprop:design-time-name="846ca4e0-9818-411a-a0e4-a8c5ff17e5ee" msprop:DbColumnName="otobusno" msprop:FriendlyName="otobusno" type="xs:int" minOccurs="0" />
+                  <xs:element name="seferno" msprop:design-time-name="34322e68-7f90-43ac-8997-87c02cd9682d" msprop:DbColumnName="seferno" msprop:FriendlyName="seferno" type="xs:int" minOccurs="0" />
+                  <xs:element name="tarih" msprop:design-time-name="2d72a9b1-4f84-4383-b806-220914015672" msprop:DbColumnName="tarih" msprop:FriendlyName="tarih" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="biletno" msprop:design-time-name="a453245c-051d-49ff-b7be-4d93d01332d6" msprop:DbColumnName="biletno" msprop:FriendlyName="biletno" type="xs:int" minOccurs="0" />
+                  <xs:element name="koltukno" msprop:design-time-name="54ab80a1-fa67-46a4-a55a-cf8fe2a1c381" msprop:DbColumnName="koltukno" msprop:FriendlyName="koltukno" type="xs:int" minOccurs="0" />
+                  <xs:element name="musterino" msprop:design-time-name="03a04f45-4bc8-4afd-8064-c41c5ec86fe0" msprop:DbColumnName="musterino" msprop:FriendlyName="musterino" type="xs:int" minOccurs="0" />
+                  <xs:element name="koltuksayisi" msprop:design-time-name="4d528783-e671-4f06-88b5-fb6e61f44f8e" msprop:DbColumnName="koltuksayisi" msprop:FriendlyName="koltuksayisi" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_sog" msprop:design-time-name="e44b5784-3627-4f49-b3e0-46bbea6ca098" msprop:DbTableName="sog" msprop:FriendlyName="sog" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="000eaaa2-9f82-44e7-bf01-3f403cc41468" msprop:DbColumnName="id" msprop:FriendlyName="id" type="xs:int" />
+                  <xs:element name="guzerghno" msprop:design-time-name="e51031ba-3ab2-4257-8aa3-8d21692f8cdc" msprop:DbColumnName="guzerghno" msprop:FriendlyName="guzerghno" type="xs:int" minOccurs="0" />
+                  <xs:element name="tarih" msprop:design-time-name="7ec1eba3-d724-42fa-bafd-7fd3512068f8" msprop:DbColumnName="tarih" msprop:FriendlyName="tarih" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="seferno" msprop:design-time-name="902d198e-fb26-41b2-b0ec-3e7b501373a8" msprop:DbColumnName="seferno" msprop:FriendlyName="seferno" type="xs:int" minOccurs="0" />
+                  <xs:element name="otobusno" msprop:design-time-name="c0742a22-c4de-4b43-84e8-bb9e60eb50a9" msprop:DbColumnName="otobusno" msprop:FriendlyName="otobusno" type="xs:int" minOccurs="0" />
+                  <xs:element name="varisyeri" msprop:design-time-name="0e486493-8fbc-420b-8eb1-90f0ed33cb17" msprop:DbColumnName="varisyeri" msprop:FriendlyName="varisyeri" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="kalkisyeri" msprop:design-time-name="75bbab2c-dc80-4dea-9f80-d57cbb2b15de" msprop:DbColumnName="kalkisyeri" msprop:FriendlyName="kalkisyeri" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="fiyat" msprop:design-time-name="e393d8e7-fa17-4876-ac80-9ebd1c1ccf2b" msprop:DbColumnName="fiyat" msprop:FriendlyName="fiyat" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_mbosg" />
+          <xs:field xpath="id" />
+        </xs:unique>
+        <xs:keyref name="FK_sog_mbosg" refer="Constraint1">
+          <xs:selector xpath=".//dbo_sog" />
+          <xs:field xpath="id" />
+        </xs:keyref>
+        <xs:keyref name="FK_sbo_mbosg" refer="Constraint1">
+          <xs:selector xpath=".//dbo_sbo" />
+          <xs:field xpath="id" />
+        </xs:keyref>
+        <xs:keyref name="FK_msb_mbosg" refer="Constraint1">
+          <xs:selector xpath=".//dbo_msb" />
+          <xs:field xpath="id" />
+        </xs:keyref>
+        <xs:keyref name="FK_mgob_mbosg" refer="Constraint1">
+          <xs:selector xpath=".//dbo_mgob" />
+          <xs:field xpath="id" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <Sofudw xmlns="" />
+  </Schema>
+</DataSourceView>
